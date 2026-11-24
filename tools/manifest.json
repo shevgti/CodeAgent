@@ -1,0 +1,60 @@
+{
+  "tools": [
+    {
+      "name": "gh_problem_search",
+      "alias": "web_search",
+      "description": "Найти в интернете описание похожей проблемы и готовый приём. Когда своих знаний мало и нужно свежее решение.",
+      "params": "query limit",
+      "tags": "проблема поиск решение интернет готовый приём"
+    },
+    {
+      "name": "gh_problem_fetch",
+      "alias": "http_get",
+      "description": "Забрать страницу или API с описанием ошибки/инструмента. Для проверки факта или чтения документации.",
+      "params": "url timeout",
+      "tags": "страница документация api прочитать url"
+    },
+    {
+      "name": "gh_problem_calc",
+      "alias": "calc",
+      "description": "Безопасно посчитать выражение. Для быстрой проверки чисел в задаче.",
+      "params": "expr",
+      "tags": "посчитать арифметика число проверка"
+    },
+    {
+      "name": "gh_problem_git_status",
+      "alias": "git_status",
+      "description": "Посмотреть, что изменилось в проекте, перед сдачей работы.",
+      "params": "path",
+      "tags": "git изменения статус проверка"
+    },
+    {
+      "name": "gh_problem_node_check",
+      "alias": "node_check",
+      "description": "Проверить синтаксис JS/MJS после правки. Обязательно перед завершением.",
+      "params": "path",
+      "tags": "синтаксис javascript проверка node"
+    },
+    {
+      "name": "gh_problem_test",
+      "alias": "npm_test",
+      "description": "Прогнать тесты проекта. Подтверждение, что правка ничего не сломала.",
+      "params": "",
+      "tags": "тесты проверка npm test регрессия"
+    },
+    {
+      "name": "gh_problem_remember",
+      "alias": "skill_create",
+      "description": "Сохранить найденный приём как навык, чтобы не искать его заново.",
+      "params": "id name description body",
+      "tags": "навык сохранить запомнить приём"
+    },
+    {
+      "name": "gh_problem_note",
+      "alias": "task_note",
+      "description": "Записать итог решения в долгую память.",
+      "params": "text",
+      "tags": "итог память заметка результат"
+    }
+  ]
+}
